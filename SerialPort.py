@@ -36,7 +36,7 @@ def reset_arduino(serial_port, baud_rate):
         print(f"Error: {e}")
 
 if __name__ == "__main__":
-    serial_port = 'COM5'  # Update with your Arduino serial port
+    serial_port = 'COM3'  # Update with your Arduino serial port
     baud_rate = 9600
     duration = 15  # Duration in seconds to read data
 

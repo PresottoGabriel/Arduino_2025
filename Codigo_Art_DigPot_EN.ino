@@ -1,5 +1,4 @@
 const int CLK = 10;
-
 const int UD = 11;
 const int CS = 12;
 float R_drop = 200;  // resistance value of the shunt resistor.
