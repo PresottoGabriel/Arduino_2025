@@ -8,8 +8,8 @@ from sklearn.metrics import r2_score
 import random
 
 # Define constants
-BASE_DIRECTORY = os.path.abspath('Dados')
-SAVE_FOLDER = os.path.abspath('Graficos')
+BASE_DIRECTORY = os.path.abspath('data')
+SAVE_FOLDER = os.path.abspath('graphs')
 REMOVE_POINTS = 2
 COLNAMES = ["V", "2", "3", "4", "I"]
 DIODE_SETTINGS = {
@@ -32,7 +32,7 @@ e_over_kB = 1.160451812 * 10**4  # in C/K
 os.makedirs(SAVE_FOLDER, exist_ok=True)
 
 # Number of samples to analyze for non-ideality factor
-number_samples = 100
+number_samples = 10
 
 # Function to get the best distribution for a given dataset
 def get_best_distribution(data):
