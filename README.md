@@ -35,7 +35,10 @@ dmesg | grep tty
 - Packages:
   - `pyserial`
   - `numpy`
-  - `matplotlib` (or others, depending on your script)
+  - `matplotlib`
+  - `pandas`
+  - `scikit-learn`
+  - `scipy`
 
 Install with:
 
