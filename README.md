@@ -1,4 +1,4 @@
-# Arduino_2025 - RBEF Codees
+# Arduino_2025 - RBEF Codes
 
 This repository contains Codees A, B, and C of the Arduino_2025 project, developed for automation and data analysis using Arduino and Python.
 
