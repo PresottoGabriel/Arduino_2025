@@ -1,23 +1,23 @@
-# Arduino_2025 - RBEF Appendixes
+# Arduino_2025 - RBEF Codees
 
-This repository contains appendixes A, B, and C of the Arduino_2025 project, developed for automation and data analysis using Arduino and Python.
+This repository contains Codees A, B, and C of the Arduino_2025 project, developed for automation and data analysis using Arduino and Python.
 
 ## 📁 Structure
 
-- `Appendix A.ino` — Code to be uploaded to the Arduino board.
-- `Appendix B.py` — Python script for reading data via serial port.
-- `Appendix C.py` — Script for statistical analysis of acquired data.
+- `Code A.ino` — Code to be uploaded to the Arduino board.
+- `Code B.py` — Python script for reading data via serial port.
+- `Code C.py` — Script for statistical analysis of acquired data.
 
 ## 🛠️ Requirements
 
-### For Arduino (Appendix A.ino):
+### For Arduino (Code A.ino):
 - [Arduino IDE](https://www.arduino.cc/en/software)
 - Compatible Arduino board (e.g.: Uno, Nano)
 - Standard Serial library (`Serial.begin`, etc.)
 
 ## ⚠️ Warning: Serial Port
 
-Before running the `Appendix B.py` script, **carefully check the serial port used by your Arduino board**.
+Before running the `Code B.py` script, **carefully check the serial port used by your Arduino board**.
 
 - On **Windows**, it will normally be something like: `COM3`, `COM4`, etc.
 - On **Linux**, it will be something like: `/dev/ttyUSB0` or `/dev/ttyACM0`
